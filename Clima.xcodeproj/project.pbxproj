@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609347FF23A8451400CC6497 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609347FE23A8451400CC6497 /* WeatherModel.swift */; };
 		60E2D46423A0847F00528B99 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E2D46323A0847F00528B99 /* WeatherManager.swift */; };
 		60E2D46623A08BFB00528B99 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E2D46523A08BFB00528B99 /* WeatherData.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		609347FE23A8451400CC6497 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		60E2D46323A0847F00528B99 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		60E2D46523A08BFB00528B99 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 			children = (
 				60E2D46323A0847F00528B99 /* WeatherManager.swift */,
 				60E2D46523A08BFB00528B99 /* WeatherData.swift */,
+				609347FE23A8451400CC6497 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				60E2D46623A08BFB00528B99 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				60E2D46423A0847F00528B99 /* WeatherManager.swift in Sources */,
+				609347FF23A8451400CC6497 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
